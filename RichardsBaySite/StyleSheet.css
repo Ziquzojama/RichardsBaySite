@@ -1,0 +1,234 @@
+﻿body {
+  background: url(Images/AK.jpg) no-repeat center center fixed;
+  background-size: cover;
+  font-size: larger;
+
+  font-weight: bold;
+  color: black;
+  padding: 0px;
+  margin: auto;
+}
+p {
+  font-family: "Times New Roman", Times, serif;
+}
+
+header {
+  padding: 1em;
+  color: white;
+  background-color: cadetblue;
+  clear: left;
+  text-align: center;
+  height: 130px;
+}
+
+footer {
+  padding: 1em;
+  color: white;
+  background-color: #333;
+  clear: left;
+  text-align: center;
+  height: 10px;
+  font-style: italic;
+  position: static;
+  bottom: 0;
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul a {
+  text-decoration: none;
+}
+
+h2 {
+  color: darkgreen;
+}
+h1 {
+  color: darkgoldenrod;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+header img {
+  float: right;
+  width: 300px;
+  height: 130px;
+}
+
+header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+
+.Flex1 {
+  float: right;
+  width: 30%;
+  height: 50%;
+}
+.Flex2 {
+  float: left;
+  width: 60%;
+  height: 50%;
+}
+.Flex3 {
+  float: left;
+  width: 60%;
+  height: 50%;
+}
+.Flex4 {
+  float: right;
+  width: 30%;
+  height: 50%;
+}
+.Flex5 {
+  float: right;
+  width: 40%;
+  height: 50%;
+}
+.Flex6 {
+  float: left;
+  width: 50%;
+  height: 55%;
+}
+legend {
+  color: red;
+}
+#blue {
+  color: darkolivegreen;
+}
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+td,
+th {
+  border: 2px solid;
+  text-align: left;
+  padding: 8px;
+}
+#c {
+  color: darkgoldenrod;
+  border-color: black;
+}
+#H #Home {
+  background-color: darkolivegreen;
+}
+#R #Review {
+  background-color: darkolivegreen;
+}
+#P #place {
+  background-color: darkolivegreen;
+}
+#CU #Contact {
+  background-color: darkolivegreen;
+}
+#H footer {
+  padding: 1em;
+  color: white;
+  background-color: #333;
+  clear: left;
+  text-align: center;
+  height: 10px;
+  font-style: italic;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+@media only screen and (max-width: 300px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
+}
+.mySlides {
+  display: none;
+}
+
+.slideshow-container {
+  float: right;
+  position: relative;
+  margin: auto;
+  width: 600px;
+}
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}

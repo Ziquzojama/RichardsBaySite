@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+    <title>
+      Reviews
+    </title>
+</head>
+<body id="R">
+    <header>
+        <h1>Reviews</h1>
+    </header>
+    <nav>
+        <ul>
+            <li id="Home">
+                <a href="Home.html">Home</a>
+            </li>
+            <li id="place">
+                <a href="Places To Visit.html">Places to visit</a>
+            </li>
+            <li id="Review"><a href="Reviews.html">Reviews</a> </li>
+            <li id="Contact"><a href="Contact.html">Useful Contact</a></li>
+        </ul>
+    </nav>
+    <br />
+    <h2>Reviews</h2>
+    <p id="blue">Liked on did not like one of the places in Richards Bay please add your review below</p>
+    <form>
+        <fieldset>
+            <legend>Review</legend>
+            <p id="blue">Choose review you want to add</p>
+            <select id="type">
+                <option>select</option>
+                <option>Hotel</option>
+                <option>Restuarant</option>
+                <option>Trade Show</option>
+                <option>Beach</option>
+                <option>Inkwazi Mall</option>
+                <option>Other</option>
+            </select>
+            <br />
+            <br />
+            <label>Name</label>
+            <input id="name" type="text" name="Name" size="30"/>
+            <!--ratings here-->
+           <br />
+            <p id="blue">Please rate out of 10</p>
+            <label>Score</label>
+            <input id="score" type="number" name="score" size="1" />
+                <p>Add any comments</p>
+                <textarea id="comment" rows="10" cols="30"></textarea>
+                <br />
+            <br />
+                <input type="button" value="Add Review" onclick="addREV()" />
+             
+</fieldset>
+    </form>
+    
+    <br />
+
+    <footer>
+        Designed by: Nokwanda Mchunu 
+    </footer>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="JavaScript.js" type="text/javascript"></script>
+    
+
+</body>
+</html>
